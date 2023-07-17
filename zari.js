@@ -90,7 +90,14 @@ function calculatingvalues() {
                 finalResult = finalPogulu / (54 / intBell)
                 bills = finalResult * 2
 
-            } else if (livi.value === "19") {
+            }  
+            else if (livi.value === "selectLivi" || livi.value === "18.5") {
+                let rounds = 55.5;
+                finalResult = finalPogulu / (55.5 / intBell)
+                bills = finalResult * 2
+
+            }
+            else if (livi.value === "19") {
                 finalResult = finalPogulu / (57 / intBell)
                 bills = finalResult * 2
             }
